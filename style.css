@@ -290,6 +290,11 @@ body.light-mode .nav-links li a {
     animation: float 6s ease-in-out infinite;
 }
 
+img {
+    width: 22em;
+    height: 16em;
+    border-radius: 50%;
+}
 .image-placeholder i {
     font-size: 8rem;
     color: blue;
@@ -1289,6 +1294,12 @@ body.light-mode .skill-label {
     /* Footer */
     footer p {
         font-size: 0.8rem;
+    }
+
+    
+    img {
+        width: 12em;
+        height: 11em;
     }
 }
 
