@@ -1031,6 +1031,15 @@ body.light-mode .skill-label {
 
 /* ===== RESPONSIVE DESIGN - MEDIA QUERIES ===== */
 
+@media(max-width: 1300px) {
+
+    .image-placeholder {
+        height: 20em;
+    }
+   img {
+    height: 23em;
+   }
+}
 /* Tablet and smaller laptops */
 @media (max-width: 992px) {
     .hero-content {
@@ -1051,9 +1060,9 @@ body.light-mode .skill-label {
         font-size: 3.5rem;
     }
 
-    .image-placeholder {
-        width: 250px;
-        height: 250px;
+  
+    img {
+        height: 20em;
     }
 
     .image-placeholder i {
