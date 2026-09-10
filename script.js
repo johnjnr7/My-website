@@ -1,13 +1,12 @@
-// ============================================
-// 1. TYPING ANIMATION
-// ============================================
+// Typing animation..
+
 const typedTextSpan = document.querySelector('.typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
 const textArray = [
-    'An aspiring Full Stack Developer',
+    'An Aspiring Full Stack Developer',
     'A STEM Tutor',
-    'A Graphics Designer',
+    'Creative Graphics Designer',
     'An SEO Expert'
 ];
 
@@ -46,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(type, 1000);
 });
 
-// ============================================
-// 2. DARK/LIGHT MODE TOGGLE
-// ============================================
+
+// Dark mode toggle
+
 const themeToggle = document.getElementById('themeToggle');
 const body = document.body;
 const icon = themeToggle.querySelector('i');
@@ -72,9 +71,9 @@ themeToggle.addEventListener('click', () => {
     }
 });
 
-// ============================================
-// 3. MOBILE MENU TOGGLE
-// ============================================
+
+// Mobile menu toggle
+
 document.querySelector('.hamburger').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('active');
 });
@@ -86,10 +85,9 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// ============================================
-// ============================================
-// 4. WEB3FORMS CONTACT FORM - FIXED VERSION
-// ============================================
+
+// Web3forms chat
+
 const form = document.getElementById('form');
 const submitBtn = form.querySelector('button[type="submit"]');
 
@@ -148,9 +146,9 @@ form.addEventListener('submit', async (e) => {
     }
 });
 
-// ============================================
-// 5. POPUP FUNCTIONS
-// ============================================
+
+//  Popups notifications
+
 function showPopup(icon, title, message, color) {
     const popup = document.getElementById('notificationPopup');
     const overlay = document.getElementById('popupOverlay');

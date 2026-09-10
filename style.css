@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Bricolage Grotesque', "sans-serif";
 }
 
 body {
@@ -243,7 +244,7 @@ body.light-mode .nav-links li a {
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .btn-primary {
@@ -402,12 +403,13 @@ img {
 
 .about-stats {
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
     margin-top: 2rem;
 }
 
 .stat {
     text-align: center;
+    
 }
 
 .stat-number {
@@ -421,7 +423,7 @@ img {
 .stat-label {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.4);
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .about-skills h4 {
@@ -473,6 +475,7 @@ img {
     text-align: center;
     transition: all 0.4s ease;
     backdrop-filter: blur(10px);
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .service-card:hover {
@@ -493,7 +496,7 @@ img {
     font-size: 1.3rem;
     color: #fff;
     margin-bottom: 0.8rem;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .service-card p {
@@ -501,7 +504,11 @@ img {
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.6;
     font-weight: 400;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.bio {
+    font-weight: bold;
 }
 
 /* ===== CONTACT SECTION ===== */
@@ -640,12 +647,14 @@ footer p {
 
 footer strong {
     color: rgba(255, 255, 255, 0.6);
+    font-size: 1.3rem;
 }
 
 .footer-tagline {
-    font-size: 0.8rem !important;
+    font-size: 1.2rem !important;
     color: rgba(255, 255, 255, 0.15) !important;
     margin-top: 0.3rem;
+    font-weight: bold;
 }
 
 /* ===== LIGHT MODE STYLES ===== */
