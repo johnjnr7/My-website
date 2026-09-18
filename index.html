@@ -35,7 +35,9 @@
     <header>
         <nav>
             <div class="logo">
-                <span class="logo-text">The Scientist</span>
+                <a href="/" class="logo" aria-label="John Edheke home">
+  <span class="br">&lt;/</span>thescientist<span class="br">&gt;</span>
+</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -54,7 +56,7 @@
         </nav>
     </header>
 
-    <!-- ===== HERO SECTION ===== -->
+    <!-- HERO SECTION -->
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -67,7 +69,7 @@
                     Passionate about Education and Technology — building the next big thing from Warri, Nigeria.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                    <a href="#contact" class="btn btn-primary">Book a session</a>
                     <a href="Images/Edheke_John_Jnr_CV (1).pdf" class="btn btn-secondary">RESUME</a>
                 </div>
             </div>
@@ -83,35 +85,36 @@
         </div>
     </section>
 
-    <!-- ===== ABOUT SECTION ===== -->
+    <!-- ABOUT SECTION -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">About Me</span>
                 <h2>Who I Am</h2>
-                <div class="underline"></div>
+
             </div>
             <div class="about-grid">
                 <div class="about-text">
                     <h3>Who is Edheke John Jnr ?</h3>
                     <p>
-                        I'm an aspiring <strong>Full Stack Developer</strong> in the making, 
-                        an online <strong>STEM Tutor</strong>, a creative <strong>Graphics Designer</strong>, 
-                        and an <strong>SEO Expert</strong>. I believe in the power of education 
-                        and technology to transform lives.
+                       Edheke John Jnr, The Scientist, The Mozart Of Math or Tutor John The Scientist is a <strong>Frontend Web Developer</strong>,
+                        an online <strong>Math and Science Tutor</strong>, a creative <strong>Graphics Designer</strong>, 
+                        and an <strong>SEO Specialist</strong>. He believes in the power of education 
+                        and technology to transform and impact lives.
                     </p>
                     <p>
-                        With a strong foundation in science and a love for clean code, 
-                        I help businesses and individuals build their digital presence 
-                        while making learning fun and accessible.
+                        With a strong foundation in science and love for programming, 
+                        He help businesses and individuals build their digital presence 
+                        whilst making learning fun and accessible to many around the world.
                     </p>
                     <div class="about-stats">
+                       
                         <div class="stat">
                             <span class="stat-number">1-2</span>
                             <span class="stat-label">Year Experience</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-number">20+</span>
+                            <span class="stat-number">30+</span>
                             <span class="stat-label">Students Tutored</span>
                         </div>
                         <div class="stat">
@@ -131,6 +134,10 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="projects" class="projects">
+        
     </section>
 
     <!-- ===== SERVICES SECTION ===== -->
@@ -177,7 +184,7 @@
             <div class="contact-wrapper">
                 <div class="contact-info">
                     <h3>Connect with me</h3>
-                    <p>I'm always open to new projects, collaborations, or just a good chat!</p>
+                    <p>I'm always open to new projects, collaborations, and smart contracts.</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
@@ -203,7 +210,15 @@
                 <form class="contact-form" id="form">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
-    <input type="text" name="subject" placeholder="Subject">
+    <label for="appointment"></label>
+    <input list="appointments" name="appointment" id="appointment" placeholder="Appointment type..." required>
+
+    <datalist id="appointments">
+    <option value="Tutorials">
+    <option value="Assignments Help">
+    <option value="Website Development">
+    <option value="Smart Contracts">
+    </datalist>
     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
     <button type="submit" class="btn btn-primary">
         Send Message
@@ -213,7 +228,7 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <p><strong>MMXXVI - Edheke John Jnr - All Right Reserved.</strong></p>

@@ -5,7 +5,7 @@ const cursorSpan = document.querySelector('.cursor');
 
 const textArray = [
     'An Aspiring Full Stack Developer',
-    'A STEM Tutor',
+    'A Math and Science Tutor',
     'Creative Graphics Designer',
     'An SEO Expert'
 ];

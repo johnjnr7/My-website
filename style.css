@@ -6,15 +6,39 @@
     font-family: 'Bricolage Grotesque', "sans-serif";
 }
 
+.logo {
+  display: inline-block;
+  border: none;
+  font-size: 1.4rem;       /* change this to resize the whole logo */
+  font-weight: bold;
+  line-height: 1.2;
+  color: #0077ff;
+  border-radius: 12px;
+  padding: 0.15em 0.5em;   /* em units, so the padding scales with the text */
+  text-decoration: none;
+}
+
 body {
     background-color: #0a0a0a;
-    font-family: 'DM Sans', 'Outfit', sans-serif;
+    font-family: 'Bricolage Grotesque', "sans-serif";
     color: #fff;
     line-height: 1.6;
     overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+p {
+    font-family: 'Bricolage Grotesque', "sans-serif";
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bricolage Grotesque',sans-serif;
+}
+
+h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
 /* SCROLLBAR STYLING */
 ::-webkit-scrollbar {
     width: 10px;
@@ -496,7 +520,7 @@ img {
     font-size: 1.3rem;
     color: #fff;
     margin-bottom: 0.8rem;
-    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .service-card p {
@@ -511,7 +535,7 @@ img {
     font-weight: bold;
 }
 
-/* ===== CONTACT SECTION ===== */
+/* CONTACT SECTION */
 .contact {
     padding: 5rem 0;
     background: rgba(0, 0, 255, 0.02);
@@ -569,6 +593,9 @@ img {
     gap: 1rem;
 }
 
+label {
+    display: none;
+}
 .social-links a {
     width: 45px;
     height: 45px;
@@ -631,7 +658,7 @@ img {
 
 /* ===== FOOTER ===== */
 footer {
-    padding: 2rem 0;
+    padding: 1.8rem 0;
     text-align: center;
     border-top: 1px solid rgba(0, 0, 255, 0.1);
     background: rgba(0, 0, 0, 0.8);
@@ -958,7 +985,7 @@ body.light-mode footer p {
 }
 
 body.light-mode footer strong {
-    color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(0, 0, 0, 0.879) !important;
 }
 
 /* Scroll indicator */
